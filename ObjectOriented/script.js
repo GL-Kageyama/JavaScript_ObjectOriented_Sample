@@ -1,5 +1,5 @@
 // Class definition
-var Culculation = function(firstPara, secondPara) {
+var Calculation = function(firstPara, secondPara) {
 
     this.firstP = firstPara;
     this.secondP = secondPara;
@@ -20,7 +20,7 @@ var Culculation = function(firstPara, secondPara) {
 };
 
 // Instantiate
-var calc = new Culculation(32, 56);
+var calc = new Calculation(32, 56);
 
 console.log("Addition : " + calc.getAdd());
 console.log("Subtraction : " + calc.getSub());

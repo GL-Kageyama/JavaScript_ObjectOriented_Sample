@@ -1,12 +1,12 @@
 // Class definition
-var Culculation = function(firstPara, secondPara) {
+var Calculation = function(firstPara, secondPara) {
 
     this.firstP = firstPara;
     this.secondP = secondPara;
 };
 
 // Instantiate
-var calc = new Culculation(32, 56);
+var calc = new Calculation(32, 56);
 
 // Add functions dynamically
 calc.getAdd = function() {
